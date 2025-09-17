@@ -18,6 +18,7 @@ async function getDbUri() {
     return JSON.parse(response.SecretString).MONGO_URI;
   }
 }
+// heeh
 
 (async () => {  
   try {
