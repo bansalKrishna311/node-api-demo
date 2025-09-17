@@ -19,6 +19,9 @@ async function getDbUri() {
   }
 }
 // heeh
+app.get("/", (req, res) => {
+  res.send(" API is running");
+});
 
 (async () => {  
   try {
