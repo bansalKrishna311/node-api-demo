@@ -2,7 +2,7 @@ const app = require("./src/app");
 // const mongoose = require("mongoose");
 // const dotenv = require("dotenv");
 const { SecretsManagerClient, GetSecretValueCommand } = require("@aws-sdk/client-secrets-manager");
-
+// nishant
 // dotenv.config(); // load .env if available
 
 // async function getDbUri() {
