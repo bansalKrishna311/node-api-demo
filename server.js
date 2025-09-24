@@ -35,5 +35,5 @@ const { SecretsManagerClient, GetSecretValueCommand } = require("@aws-sdk/client
 
 
 app.get("/", (req, res) => {
-  res.send(" API is running");
+  res.send(" API is running also the pipeline");
 });
